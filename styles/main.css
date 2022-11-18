@@ -35,16 +35,23 @@ body {
 }
 
 .content {
-    margin-top: 0px;
+    margin-top: 0;
     min-height: 917px;
 }
 
+
+.invisible_link:active,
+.invisible_link:hover,
+.invisible_link {
+    text-decoration: none;
+    color: #D2BB95;
+}
 
 .footer_inside {
     display: flex;
     flex-direction: row;
     justify-content: left;
-    padding: 48px 0px 30px 35px;
+    padding: 48px 0 30px 35px;
 }
 
 .footer_line hr {
@@ -64,7 +71,15 @@ body {
 }
 
 @media screen and (min-height: 1200px) {
-
+    .footer_useful_link {
+        margin-bottom: 12px;
+    }
+    .menu_page_link {
+        font-size: 18px;
+    }
+    .menu_chapter_link {
+        font-size: 20px;
+    }
 }
 
 @media screen and (min-width: 1900px) {
@@ -74,5 +89,13 @@ body {
     .logo_image {
         min-width: 173px;
     }
-
+    .footer_useful_link {
+        margin-bottom: 17px;
+    }
+    .menu_page_link {
+        font-size: 20px;
+    }
+    .menu_chapter_link {
+        font-size: 24px;
+    }
 }
