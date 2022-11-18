@@ -22,6 +22,10 @@
     border-radius: 5px;
 }
 
+.card img {
+    width: 100%;
+}
+
 .card_header {
     font-weight: 700;
     color: #D2A353;
@@ -32,7 +36,7 @@
         height: 357px;
     }
     .preview_wrapper {
-        padding: 56px 0px 0px 210px;
+        padding: 56px 0 0 210px;
     }
     .preview_text {
         max-width: 610px;
@@ -42,25 +46,30 @@
         height: 360px;
         margin: 39px 12px;
     }
-    .card img {
-        width: 396px;
-        height: 220px;
-    }
     .card_header {
-        margin: 11px 0px;
+        margin: 11px 0;
     }
     .content {
         max-height: 917px;
     }
 }
 
+@media screen and (max-width: 1200px) {
+    .card {
+        width: 30%;
+        margin: 2%;
+    }
+    .card img {
+        width: 100%;
+    }
+}
 
 @media screen and (min-width: 1900px) {
     .preview {
         height: 476px;
     }
     .preview_wrapper {
-        padding: 68px 0px 0px 244px;
+        padding: 68px 0 0 244px;
     }
     .preview-header {
         margin-bottom: 51px;
@@ -75,12 +84,8 @@
         height: 484px;
         margin: 68px 18px;
     }
-    .card img {
-        width: 566px;
-        height: 315px;
-    }
     .card_header {
-        margin: 16px 0px;
+        margin: 16px 0;
     }
     .content {
         max-height: 1190px;

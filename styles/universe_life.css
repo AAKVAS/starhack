@@ -1,0 +1,38 @@
+#universe_born {
+    width: 58%;
+    text-indent: 35px;
+    text-align: justify;
+}
+
+#big_bang {
+    width: 37%;
+}
+
+#big_bang img{
+    width: 100%;
+    border-radius: 3px;
+}
+
+#universe_evolution ol {
+    margin-bottom: 28px;
+}
+
+#universe_evolution img {
+    width: 100%;
+    border-radius: 3px;
+}
+
+#universe_future {
+    text-align: justify;
+}
+
+ol {
+    margin-left: 20px;
+}
+
+
+@media screen and (min-width: 1900px) {
+    #universe_evolution ol {
+        margin-bottom: 36px;
+    }
+}

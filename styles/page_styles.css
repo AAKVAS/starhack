@@ -47,7 +47,6 @@
 .page_title {
     color: #93B6CF;
     font-size: 28px;
-    margin-bottom: 60px;
 }
 
 .page_title hr {
@@ -99,15 +98,31 @@
     margin-right: 24px;
 }
 
+.content_block_inside_main {
+    padding: 0 25px;
+}
+
+.text_header {
+    font-size: 24px;
+    color: #D2A353;
+    font-weight: bold;
+    margin-bottom: 12px;
+    margin-top: 28px;
+}
+
+.flex_row_between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
 @media screen and (min-height: 1200px) {
     .menu_page_link {
         font-size: 18px;
     }
     .menu_chapter_link {
         font-size: 20px;
-    }
-    .page_title {
-        font-size: 28px;
     }
 }
 
@@ -124,4 +139,8 @@
     .page_title {
         font-size: 32px;
     }
+    .text_header {
+        margin-top: 36px;
+    }
+
 }
