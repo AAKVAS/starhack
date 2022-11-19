@@ -1,0 +1,29 @@
+
+.galaxy_block {
+    margin-bottom: 28px;
+}
+
+.galaxy_block_text {
+    width: 59%;
+    text-indent: 35px;
+    text-align: justify;
+}
+
+.galaxy_block_img {
+    width: 38%;
+}
+
+.galaxy_block_img img {
+    width: 100%;
+}
+
+.text_with_justify_indent {
+    text-indent: 35px;
+    text-align: justify;
+}
+
+@media screen and (min-width: 1900px) {
+    .galaxy_block {
+        margin-bottom: 36px;
+    }
+}
