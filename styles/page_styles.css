@@ -114,7 +114,24 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
 
+.flex_row_around {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex_row_left {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.flex_row_right {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
 }
 
 .text_with_justify_indent {
@@ -124,6 +141,10 @@
 
 .mb_28_36 {
     margin-bottom: 28px;
+}
+
+.mt_28_36 {
+    margin-top: 28px;
 }
 
 .br_3px {
@@ -158,5 +179,7 @@
     .mb_28_36 {
         margin-bottom: 36px;
     }
-
+    .mt_28_36 {
+        margin-top: 36px;
+    }
 }

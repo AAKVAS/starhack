@@ -1,0 +1,37 @@
+
+.asteroid_text {
+    width: 63%;
+}
+
+.asteroid_img {
+    width: 30%;
+}
+
+.asteroid_img img {
+    width: 100%;
+}
+
+.asteroid_classification_img {
+    width: 25%;
+    margin-left: 5%;
+}
+
+.asteroid_classification_img img {
+    width: 100%;
+}
+
+.asteroid_classification_text {
+    width: 58%;
+}
+
+.meteor_text {
+    width: 46%;
+}
+
+.meteor_img {
+    width: 50%;
+}
+
+.meteor_img img {
+    width: 100%;
+}
