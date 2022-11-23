@@ -117,6 +117,19 @@
 
 }
 
+.text_with_justify_indent {
+    text-indent: 35px;
+    text-align: justify;
+}
+
+.mb_28_36 {
+    margin-bottom: 28px;
+}
+
+.br_3px {
+    border-radius: 3px;
+}
+
 @media screen and (min-height: 1200px) {
     .menu_page_link {
         font-size: 18px;
@@ -141,6 +154,9 @@
     }
     .text_header {
         margin-top: 36px;
+    }
+    .mb_28_36 {
+        margin-bottom: 36px;
     }
 
 }

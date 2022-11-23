@@ -1,0 +1,19 @@
+.half_width_block {
+    width: 48%;
+}
+
+.half_width_block img   {
+    width: 100%;
+}
+
+.star_img {
+    width: 36%;
+}
+
+.star_img img {
+    width: 100%;
+}
+
+.star_text {
+    width: 62%;
+}
