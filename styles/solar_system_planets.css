@@ -1,0 +1,46 @@
+
+.planet_numbers {
+    width: 50%;
+}
+
+#mercury_img {
+    width: 11%;
+    margin: 0 16%;
+}
+
+#venus_img {
+    width: 19%;
+    margin: 0 11.5%;
+}
+
+#earth_img {
+    width: 23%;
+    margin: 0 9.5%;
+}
+
+#mars_img {
+    width: 20%;
+    margin: 0 11%;
+}
+
+#jupiter_img {
+    width: 35%;
+    margin: 0 7% 0 0;
+}
+
+#saturn_img {
+    width: 57%;
+}
+
+#uranus_img {
+    width: 13%;
+    margin: 0 14.5%;
+}
+
+#neptune_img {
+    width: 14%;
+    margin: 0 14%;
+}
+
+
+

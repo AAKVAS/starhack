@@ -12,12 +12,33 @@
 }
 
 .content_block {
-    width: 58%;
+    width: 75%;
+}
+
+.content_block_inside {
+    width: 73%;
 }
 
 .table_of_content {
-    width: 17%;
+    width: 23%;
+    color: #519BCF;
+    margin: 0 9px;
 }
+
+.table_of_content ul{
+    color: #93B6CF;
+}
+
+.table_of_content a:active,
+.table_of_content a{
+    text-decoration: none;
+    color: #93B6CF;
+}
+
+.table_of_content a:hover {
+    color: #519BCF;
+}
+
 
 .menu_chapter_link {
     color: #D2A353;
@@ -55,6 +76,7 @@
     border: none;
     background-color: #D2BB95;
     height: 1px;
+    width: 73%;
 }
 
 .content_block_chapters {
@@ -149,6 +171,10 @@
 
 .br_3px {
     border-radius: 3px;
+}
+
+.img_wrapper img {
+    width: 100%;
 }
 
 @media screen and (min-height: 1200px) {
