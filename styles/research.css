@@ -1,0 +1,54 @@
+
+.telescope_type_text {
+    width: 70%;
+    align-self: flex-start;
+}
+
+.align_items_end {
+    align-items: end;
+}
+
+.align_items_center {
+    align-items: center;
+}
+
+#telescope_type_img_1 {
+    width: 20%;
+    margin-left: 3%;
+}
+
+#telescope_type_img_2 {
+    width: 38%;
+    margin-left: 3%;
+}
+
+#telescope_type_img_3 {
+    width: 50%;
+    margin-left: 3%;
+}
+
+.mb_12 {
+    margin-bottom: 12px;
+}
+
+.rocket_img {
+    width: 34%;
+}
+
+.lander_img {
+    width: 30%;
+    margin-left: 4%;
+}
+
+.satelite_img {
+    width: 43%;
+}
+
+.rover_img {
+    width: 32%;
+    margin-left: 3%;
+}
+
+.tools_2 {
+    margin-top: 18px;
+}
