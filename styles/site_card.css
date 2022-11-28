@@ -1,0 +1,74 @@
+
+
+.chapter_link_inside_content {
+    font-weight: 400;
+}
+
+.page_link_inside_content {
+    font-size: 20px;
+}
+
+.chapter_link_inside_content a, .page_link_inside_content a {
+    color: #93B6CF;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+    .site_card_links {
+        margin-top: 24px;
+    }
+    .chapter_link_inside_content {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+    .page_link_inside_content {
+        font-size: 14px;
+        margin-bottom: 8px;
+        margin-left: 13px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .site_card_links {
+        margin-top: 26px;
+    }
+    .chapter_link_inside_content {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+    .page_link_inside_content {
+        font-size: 16px;
+        margin-bottom: 8px;
+        margin-left: 13px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .site_card_links {
+        margin-top: 36px;
+    }
+    .chapter_link_inside_content {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+    .page_link_inside_content {
+        font-size: 20px;
+        margin-bottom: 8px;
+        margin-left: 17px;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .site_card_links {
+        margin-top: 38px;
+    }
+    .chapter_link_inside_content {
+        font-size: 26px;
+        margin-bottom: 18px;
+    }
+    .page_link_inside_content {
+        font-size: 20px;
+        margin-bottom: 12px;
+        margin-left: 17px;
+    }
+}
