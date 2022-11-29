@@ -113,7 +113,7 @@
 .content_block_chapter_header img {
     width: 13.5%;
     height: 13.5%;
-    margin-right: 24px;
+    margin-right: 2%;
 }
 
 .content_block_inside_main {
@@ -184,6 +184,9 @@
     .bread_crumps {
         margin-bottom: 14px;
     }
+    .content_block_chapter_header {
+        font-size: 24px;
+    }
 }
 
 @media screen and (min-width: 800px) {
@@ -192,6 +195,9 @@
     }
     .bread_crumps {
         margin-bottom: 24px;
+    }
+    .content_block_chapter_header {
+        font-size: 24px;
     }
 }
 
