@@ -43,8 +43,26 @@
 
 @media screen and (max-width: 800px) {
     .preview_header {
-        margin-bottom: 38px;
-        font-size: 62px;
+        margin-bottom: 12px;
+        text-align: center;
+        font-size: 48px;
+    }
+    .preview_text {
+        width: 98%;
+        text-align: center;
+        font-size: 16px;
+    }
+    .preview_wrapper {
+        padding: 2% 4%;
+        min-height: 300px;
+    }
+    .content_cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 90%;
+        margin-bottom: 4%;
     }
 }
 
