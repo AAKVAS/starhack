@@ -10,3 +10,13 @@
 .comet_img img {
     width: 100%;
 }
+
+@media screen and (max-width: 800px) {
+    .comet_text {
+        width: 100%;
+    }
+    .comet_img {
+        width: 100%;
+    }
+
+}

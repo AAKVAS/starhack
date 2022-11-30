@@ -1,6 +1,7 @@
 
 .galaxy_block_text {
     width: 59%;
+    margin-bottom: 8px;
 }
 
 .galaxy_block_img {
@@ -11,5 +12,16 @@
     width: 100%;
 }
 
+@media screen and (max-width: 800px) {
+    .galaxy_block_text {
+        width: 100%;
+    }
+    .galaxy_block_img {
+        width: 100%;
+    }
 
+    .star_text {
+        width: 100%;
+    }
+}
 
