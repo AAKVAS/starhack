@@ -95,7 +95,6 @@ body {
     text-decoration: underline;
 }
 
-
 @media screen and (max-width: 800px) {
     .menu_button {
         display: block;
@@ -123,15 +122,25 @@ body {
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 801px) {
     .logo_image {
-        max-width: 136px;
+        max-width: 104px;
+    }
+    .header_inside {
+        padding: 4px 16px;
     }
     body {
         font-size: 16px;
     }
     .footer_inside {
-        padding: 48px 0 30px 35px;
+        padding: 32px 0 30px 28px;
+    }
+    .footer_inside_usefull_links {
+        width: 36%;
+    }
+    .footer_useful_link {
+        font-size: 16px;
+        margin-bottom: 8px;
     }
 }
 
@@ -152,6 +161,14 @@ body {
         font-size: 18px;
     }
     .menu_chapter_link {
+        font-size: 20px;
+    }
+    .footer_inside_usefull_links {
+        margin-right: 1.6%;
+        width: 21%;
+    }
+    .footer_useful_link {
+        margin-bottom: 12px;
         font-size: 20px;
     }
 }

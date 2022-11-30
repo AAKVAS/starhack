@@ -66,10 +66,14 @@
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 801px) {
     .preview_header {
-        margin-bottom: 38px;
+        margin-bottom: 18px;
         font-size: 80px;
+    }
+    .preview_text {
+        width: 65%;
+        font-size: 18px;
     }
 }
 
@@ -84,6 +88,9 @@
     .card_header {
         margin: 11px 0;
     }
+    .card {
+        font-size: 20px;
+    }
 }
 
 @media screen and (min-width: 1900px) {
@@ -97,6 +104,9 @@
     }
     .card_header {
         margin: 16px 0;
+    }
+    .card {
+        font-size: 24px;
     }
 }
 
