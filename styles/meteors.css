@@ -35,3 +35,16 @@
 .meteor_img img {
     width: 100%;
 }
+
+@media screen and (max-width: 800px) {
+    .meteor_text,
+    .asteroid_text,
+    .asteroid_img,
+    .asteroid_classification_img,
+    .asteroid_classification_text,
+    .meteor_img
+    {
+        width: 100%;
+        margin-bottom: 4px;
+    }
+}

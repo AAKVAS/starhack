@@ -56,4 +56,8 @@
     .table_of_content hr{
         display: block;
     }
+    .planet_numbers {
+        width: 100%;
+
+    }
 }

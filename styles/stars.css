@@ -23,14 +23,11 @@
 }
 
 @media screen and (max-width: 800px) {
-    .half_width_block {
-        width: 100%;
-    }
-    .star_img {
+    .half_width_block,
+    .star_img,
+    .star_text
+    {
         width: 100%;
     }
 
-    .star_text {
-        width: 100%;
-    }
 }

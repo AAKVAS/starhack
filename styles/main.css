@@ -26,11 +26,15 @@ body {
     margin-bottom: 8px;
 }
 
-.menu_button {
+#menu_button {
     display: none;
     width: 24px;
     height: 24px;
     background-color: #D2A353;
+}
+
+#menu_button:hover {
+    background-color: #519BCF;
 }
 
 .header_line hr {
@@ -95,9 +99,16 @@ body {
     text-decoration: underline;
 }
 
+.show {display:block;}
+
 @media screen and (max-width: 800px) {
-    .menu_button {
+    #menu_button {
         display: block;
+    }
+    #menu {
+        display: none;
+        position: absolute;
+        z-index: 1;
     }
     .logo_image {
         max-width: 104px;
