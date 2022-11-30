@@ -17,3 +17,16 @@
 .star_text {
     width: 66%;
 }
+
+@media screen and (max-width: 800px) {
+    .half_width_block {
+        width: 100%;
+    }
+    .star_img {
+        width: 100%;
+    }
+
+    .star_text {
+        width: 100%;
+    }
+}

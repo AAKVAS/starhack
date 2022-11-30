@@ -30,6 +30,15 @@ ol {
     margin-left: 20px;
 }
 
+@media screen and (max-width: 800px) {
+    #universe_born {
+        width: 100%;
+    }
+    #big_bang {
+        margin-top: 6px;
+        width: 100%;
+    }
+}
 
 @media screen and (min-width: 1900px) {
     #universe_evolution ol {

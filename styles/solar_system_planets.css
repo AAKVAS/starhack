@@ -42,5 +42,18 @@
     margin: 0 14%;
 }
 
+.table_of_content hr {
+    display: none;
+    margin-top: 8px;
+    color: #D2BB95;
+    border: none;
+    background-color: #D2BB95;
+    height: 1px;
+    width: 100%;
+}
 
-
+@media screen and (max-width: 800px) {
+    .table_of_content hr{
+        display: block;
+    }
+}
