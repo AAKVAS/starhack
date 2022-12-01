@@ -14,247 +14,179 @@
     <meta name="viewport" content="width=device-width">
 </head>
 <body>
-<div class="header">
-    <div class="header_inside">
-        <div class="logo">
-            <a href="index.html"><img src="src/images/logo.png" alt="Логотип" class="logo_image"></a>
-        </div>
-    </div>
-    <div class="header_line">
-        <hr>
-    </div>
-</div>
+    <div id="included-header"></div>
 
-<div class="content">
-    <div class="content_wrapper">
+    <div class="content">
+        <div class="content_wrapper">
 
-        <div id="menu">
-            <a class="menu_chapter_link" href="index.html">
-                Главная
-            </a>
-            <a class="menu_chapter_link" href="universe.html">
-                Вселенная
-            </a>
-            <a class="menu_page_link" href="galaxy.html">
-                Галактики
-            </a>
-            <a class="menu_page_link" href="universe_life.html">
-                Жизнь вселенной
-            </a>
-            <a class="menu_page_link" href="stars.html">
-                Звёзды
-            </a>
-            <a class="menu_page_link" href="comets.html">
-                Кометы
-            </a>
-            <a class="menu_page_link" href="meteors.html">
-                Метеоры и метеориты
-            </a>
-            <a class="menu_chapter_link" href="solar_system.html">
-                Солнечная система
-            </a>
-            <a class="menu_page_link" href="sun.html">
-                Солнце
-            </a>
-            <a class="menu_page_link" href="solar_system_planets.html">
-                Планеты Солнечной Системы
-            </a>
-            <a class="menu_chapter_link" href="research.html">
-                Освоение космоса
-            </a>
-        </div>
-        <div class="content_block">
-            <div class="bread_crumps">
-                <a href="universe.html" class="bread_crump_link">Вселенная</a> /
-                <a href="stars.html" class="bread_crump_link">Звёзды</a>
-            </div>
-            <div class="page_title">
-                Звёзды
-            </div>
-            <div class="flex_row_between content_flex">
-                <div class="content_block_inside">
-                    <hr>
-                    <div class="content_block_inside_main">
+            <div id="menu"></div>
 
-                        <div id="nebulae">
-                            <div class="text_header">
-                                Туманности
-                            </div>
-                            <div class="text_with_justify_indent">
-                                В нашей Вселенной существует множество туманностей – облаков из пыли и газа. Туманности образуются во время гибели звёзд.
-                            </div>
+            <div class="content_block">
+                <div class="bread_crumps">
+                    <a href="universe.html" class="bread_crump_link">Вселенная</a> /
+                    <a href="stars.html" class="bread_crump_link">Звёзды</a>
+                </div>
+                <div class="page_title">
+                    Звёзды
+                </div>
+                <div class="flex_row_between content_flex">
+                    <div class="content_block_inside">
+                        <hr>
+                        <div class="content_block_inside_main">
 
-                            <div class="text_header">
-                                Виды туманностей
-                            </div>
-                            <div class="nebulae_block mb_28_36">
-                                <div class="flex_row_between mb_28_36 column_flex">
-                                    <div class="half_width_block text_with_justify_indent">
-                                        <div>
-                                            <b>Абсорбционные (тёмные)</b> – очень плотные облака пыли, поглощают свет.
-                                        </div>
-                                    </div>
-                                    <div class="half_width_block text_with_justify_indent">
-                                        <div>
-                                            <b>Отражающие (голубые)</b> – отражают свет близких звёзд. Цвет туманности зависит от цвета звезды.
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="flex_row_between column_flex">
-                                    <div class="half_width_block br_3px">
-                                        <img src="/src/images/universe/stars/nebulae/nebula_1.jpg" alt="">
-                                    </div>
-                                    <div class="half_width_block br_3px">
-                                        <img src="/src/images/universe/stars/nebulae/nebula_2.jpg" alt="">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="nebulae_block ">
-                                <div class="flex_row_between mb_28_36 column_flex">
-                                    <div class="half_width_block text_with_justify_indent">
-                                        <div>
-                                            <b>Эмиссионные (красные)</b>– самые распространённые туманности. Газопылевое облако сильно разогрето ближайшими звёздами, что оно начинает светиться. В этих туманностях рождаются звёзды.
-                                        </div>
-                                    </div>
-                                    <div class="half_width_block text_with_justify_indent">
-                                        <div>
-                                            <b>Планетарные туманности и остатки сверхновых</b>– связаны с гибелью звёзд.
-                                            Планетарные туманности представляют собой ионизированный газ вокруг белого карлика.
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="flex_row_between column_flex">
-                                    <div class="half_width_block br_3px">
-                                        <img src="/src/images/universe/stars/nebulae/nebula_3.jpg" alt="">
-                                    </div>
-                                    <div class="half_width_block br_3px">
-                                        <img src="/src/images/universe/stars/nebulae/nebula_4.jpg" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div id="stars">
-                            <div class="text_header">
-                                Звёзды
-                            </div>
-                            <div class="text_with_justify_indent">
-                                Звёзды рождаются в результате гравитационного сжатия вещества туманностей. Сжимаясь, облако пыли и газа нагревается до миллионов градусов и в его ядрах начинаются ядерные реакции. Водород начинает превращаться в гелий, выделяя огромные количества энергии. Звёзды небольшой массы живут дольше, чем массивные, из-за того, что медленнее расходуют своё вещество.
-                            </div>
-
-                            <div id="stars_like_sun">
+                            <div id="nebulae">
                                 <div class="text_header">
-                                    Эволюция звёзд, подобных Солнцу
+                                    Туманности
                                 </div>
-                                <div class="flex_row_between mb_28_36 column_flex">
-                                    <div class="star_img br_3px">
-                                        <img src="/src/images/universe/stars/stars/star_1.jpg" alt="">
-                                    </div>
-                                    <div class="star_text text_with_justify_indent">
-                                        <b>Красные гиганты</b> – большие остывающие звёзды, их поверхность холоднее поверхности Солнца.
-                                    </div>
+                                <div class="text_with_justify_indent">
+                                    В нашей Вселенной существует множество туманностей – облаков из пыли и газа. Туманности образуются во время гибели звёзд.
                                 </div>
-                                <div class="flex_row_between mb_28_36 column_flex">
-                                    <div class="star_text text_with_justify_indent">
-                                        <b>Белые карлики</b> – образуются после того, как звёзды средней массы сбрасывают внешние слои, порождая планетарные туманности. Излучают белый свет и медленно остывают.
-                                    </div>
-                                    <div class="star_img br_3px">
-                                        <img src="/src/images/universe/stars/stars/star_2.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="flex_row_between mb_28_36 column_flex">
-                                    <div class="star_img br_3px">
-                                        <img src="/src/images/universe/stars/stars/star_3.jpg" alt="">
-                                    </div>
-                                    <div class="star_text text_with_justify_indent">
-                                        <b>Черный карлик</b> – остывший белый карлик.
-                                    </div>
-                                </div>
-                            </div>
 
-                            <div id="big_stars">
                                 <div class="text_header">
-                                    Эволюция звёзд большой массы
+                                    Виды туманностей
                                 </div>
-                                <div class="flex_row_between mb_28_36 column_flex">
-                                    <div class="star_text text_with_justify_indent">
-                                        <b>Красный сверхгигант</b> – очень большая остывающая звезда.
+                                <div class="nebulae_block mb_28_36">
+                                    <div class="flex_row_between mb_28_36 column_flex">
+                                        <div class="half_width_block text_with_justify_indent">
+                                            <div>
+                                                <b>Абсорбционные (тёмные)</b> – очень плотные облака пыли, поглощают свет.
+                                            </div>
+                                        </div>
+                                        <div class="half_width_block text_with_justify_indent">
+                                            <div>
+                                                <b>Отражающие (голубые)</b> – отражают свет близких звёзд. Цвет туманности зависит от цвета звезды.
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="star_img br_3px">
-                                        <img src="/src/images/universe/stars/stars/star_4.jpg" alt="">
+
+                                    <div class="flex_row_between column_flex">
+                                        <div class="half_width_block br_3px">
+                                            <img src="/src/images/universe/stars/nebulae/nebula_1.jpg" alt="">
+                                        </div>
+                                        <div class="half_width_block br_3px">
+                                            <img src="/src/images/universe/stars/nebulae/nebula_2.jpg" alt="">
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="flex_row_between mb_28_36 column_flex">
-                                    <div class="star_img br_3px">
-                                        <img src="/src/images/universe/stars/stars/star_5.jpg" alt="">
+
+                                <div class="nebulae_block ">
+                                    <div class="flex_row_between mb_28_36 column_flex">
+                                        <div class="half_width_block text_with_justify_indent">
+                                            <div>
+                                                <b>Эмиссионные (красные)</b>– самые распространённые туманности. Газопылевое облако сильно разогрето ближайшими звёздами, что оно начинает светиться. В этих туманностях рождаются звёзды.
+                                            </div>
+                                        </div>
+                                        <div class="half_width_block text_with_justify_indent">
+                                            <div>
+                                                <b>Планетарные туманности и остатки сверхновых</b>– связаны с гибелью звёзд.
+                                                Планетарные туманности представляют собой ионизированный газ вокруг белого карлика.
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="star_text text_with_justify_indent">
-                                        <b>Сверхновая</b> – взорвавшаяся звезда большой массы, в результате образуется туманность из пыли и газа.
-                                    </div>
-                                </div>
-                                <div class="flex_row_between mb_28_36 column_flex">
-                                    <div class="star_text text_with_justify_indent">
-                                        <b>Пульсар</b> – нейтронная звезда, вращающаяся с большой скоростью, испускающая радиоволны.
-                                    </div>
-                                    <div class="star_img br_3px">
-                                        <img src="/src/images/universe/stars/stars/star_6.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="flex_row_between mb_28_36 column_flex">
-                                    <div class="star_img br_3px">
-                                        <img src="/src/images/universe/stars/stars/star_7.jpg" alt="">
-                                    </div>
-                                    <div class="star_text text_with_justify_indent">
-                                        <b>Черная дыра</b> – объект с огромной плотностью.
+
+                                    <div class="flex_row_between column_flex">
+                                        <div class="half_width_block br_3px">
+                                            <img src="/src/images/universe/stars/nebulae/nebula_3.jpg" alt="">
+                                        </div>
+                                        <div class="half_width_block br_3px">
+                                            <img src="/src/images/universe/stars/nebulae/nebula_4.jpg" alt="">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
 
+                            <div id="stars">
+                                <div class="text_header">
+                                    Звёзды
+                                </div>
+                                <div class="text_with_justify_indent">
+                                    Звёзды рождаются в результате гравитационного сжатия вещества туманностей. Сжимаясь, облако пыли и газа нагревается до миллионов градусов и в его ядрах начинаются ядерные реакции. Водород начинает превращаться в гелий, выделяя огромные количества энергии. Звёзды небольшой массы живут дольше, чем массивные, из-за того, что медленнее расходуют своё вещество.
+                                </div>
+
+                                <div id="stars_like_sun">
+                                    <div class="text_header">
+                                        Эволюция звёзд, подобных Солнцу
+                                    </div>
+                                    <div class="flex_row_between mb_28_36 column_flex">
+                                        <div class="star_img br_3px">
+                                            <img src="/src/images/universe/stars/stars/star_1.jpg" alt="">
+                                        </div>
+                                        <div class="star_text text_with_justify_indent">
+                                            <b>Красные гиганты</b> – большие остывающие звёзды, их поверхность холоднее поверхности Солнца.
+                                        </div>
+                                    </div>
+                                    <div class="flex_row_between mb_28_36 column_flex">
+                                        <div class="star_text text_with_justify_indent">
+                                            <b>Белые карлики</b> – образуются после того, как звёзды средней массы сбрасывают внешние слои, порождая планетарные туманности. Излучают белый свет и медленно остывают.
+                                        </div>
+                                        <div class="star_img br_3px">
+                                            <img src="/src/images/universe/stars/stars/star_2.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="flex_row_between mb_28_36 column_flex">
+                                        <div class="star_img br_3px">
+                                            <img src="/src/images/universe/stars/stars/star_3.jpg" alt="">
+                                        </div>
+                                        <div class="star_text text_with_justify_indent">
+                                            <b>Черный карлик</b> – остывший белый карлик.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="big_stars">
+                                    <div class="text_header">
+                                        Эволюция звёзд большой массы
+                                    </div>
+                                    <div class="flex_row_between mb_28_36 column_flex">
+                                        <div class="star_text text_with_justify_indent">
+                                            <b>Красный сверхгигант</b> – очень большая остывающая звезда.
+                                        </div>
+                                        <div class="star_img br_3px">
+                                            <img src="/src/images/universe/stars/stars/star_4.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="flex_row_between mb_28_36 column_flex">
+                                        <div class="star_img br_3px">
+                                            <img src="/src/images/universe/stars/stars/star_5.jpg" alt="">
+                                        </div>
+                                        <div class="star_text text_with_justify_indent">
+                                            <b>Сверхновая</b> – взорвавшаяся звезда большой массы, в результате образуется туманность из пыли и газа.
+                                        </div>
+                                    </div>
+                                    <div class="flex_row_between mb_28_36 column_flex">
+                                        <div class="star_text text_with_justify_indent">
+                                            <b>Пульсар</b> – нейтронная звезда, вращающаяся с большой скоростью, испускающая радиоволны.
+                                        </div>
+                                        <div class="star_img br_3px">
+                                            <img src="/src/images/universe/stars/stars/star_6.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="flex_row_between mb_28_36 column_flex">
+                                        <div class="star_img br_3px">
+                                            <img src="/src/images/universe/stars/stars/star_7.jpg" alt="">
+                                        </div>
+                                        <div class="star_text text_with_justify_indent">
+                                            <b>Черная дыра</b> – объект с огромной плотностью.
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
+                    <div class="table_of_content">
+
+                    </div>
                 </div>
-                <div class="table_of_content">
-
-                </div>
-            </div>
-        </div>
-
-
-    </div>
-</div>
-
-<div class="footer">
-    <div class="footer_line">
-        <hr>
-    </div>
-    <div class="footer_inside">
-        <div class="footer_inside_usefull_links">
-            <div class="footer_useful_link">
-                <a href="site_card.html">Карта сайта</a>
-            </div>
-            <div class="footer_useful_link">
-                Разработчик:<br>
-                Плотников Алексей Николаевич
-            </div>
-        </div>
-        <div class="footer_inside_usefull_links">
-            <div class="footer_useful_link">
-                Контакты:
-            </div>
-            <div class="footer_useful_link">
-                Телефон: +7-953-524-55-41
-            </div>
-            <div class="footer_useful_link">
-                https://github.com/AAKVAS
-            </div>
-            <div class="footer_useful_link">
-                https://vk.com/jsonanygetter
             </div>
         </div>
     </div>
-</div>
+
+    <div id="included-footer"></div>
+
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/header.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/footer.js"></script>
 </body>
 </html>

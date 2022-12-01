@@ -13,19 +13,7 @@
     <meta name="viewport" content="width=device-width">
 </head>
 <body>
-    <div class="header">
-        <div class="header_inside flex_row_between">
-            <div class="logo">
-                <a href="index.html"><img src="src/images/logo.png" alt="Логотип" class="logo_image"></a>
-            </div>
-            <div id="menu_button" onclick="showMenu()">
-
-            </div>
-        </div>
-        <div class="header_line">
-            <hr>
-        </div>
-    </div>
+    <div id="included-header"></div>
 
     <div class="content">
         <div class="preview">
@@ -81,35 +69,11 @@
         </div>
     </div>
 
-    <div class="footer">
-        <div class="footer_line">
-            <hr>
-        </div>
-        <div class="footer_inside">
-            <div class="footer_inside_usefull_links">
-                <div class="footer_useful_link">
-                    <a href="site_card.html">Карта сайта</a>
-                </div>
-                <div class="footer_useful_link">
-                    Разработчик:<br>
-                    Плотников Алексей Николаевич
-                </div>
-            </div>
-            <div class="footer_inside_usefull_links">
-                <div class="footer_useful_link">
-                    Контакты:
-                </div>
-                <div class="footer_useful_link">
-                    Телефон: +7-953-524-55-41
-                </div>
-                <div class="footer_useful_link">
-                    https://github.com/AAKVAS
-                </div>
-                <div class="footer_useful_link">
-                    https://vk.com/jsonanygetter
-                </div>
-            </div>
-        </div>
-    </div>
+    <div id="included-footer"></div>
+
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/header.js"></script>
+    <script src="scripts/footer.js"></script>
+
 </body>
 </html>
