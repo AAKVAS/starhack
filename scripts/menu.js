@@ -3,5 +3,5 @@ $(function () {
 });
 
 function showMenu() {
-    document.getElementById("")
+    document.getElementById("menu").classList.toggle("show");
 }
