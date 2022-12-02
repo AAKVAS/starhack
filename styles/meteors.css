@@ -7,17 +7,9 @@
     width: 30%;
 }
 
-.asteroid_img img {
-    width: 100%;
-}
-
 .asteroid_classification_img {
     width: 25%;
     margin-left: 5%;
-}
-
-.asteroid_classification_img img {
-    width: 100%;
 }
 
 .asteroid_classification_text {
@@ -32,9 +24,14 @@
     width: 50%;
 }
 
-.meteor_img img {
+.asteroid_img img,
+.asteroid_classification_img img,
+.meteor_img img
+{
     width: 100%;
 }
+
+
 
 @media screen and (max-width: 800px) {
     .meteor_text,

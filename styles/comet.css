@@ -12,9 +12,7 @@
 }
 
 @media screen and (max-width: 800px) {
-    .comet_text {
-        width: 100%;
-    }
+    .comet_text,
     .comet_img {
         width: 100%;
     }

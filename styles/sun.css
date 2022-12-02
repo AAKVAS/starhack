@@ -1,19 +1,15 @@
 
-
 .general_info_img {
     width: 28%;
     margin: 0 0 1% 5%;
     float: right;
 }
 
-.general_info_img img {
-    width: 100%;
-}
-
 .sun_numbers_img {
     width: 33%;
 }
 
+.general_info_img img,
 .sun_numbers_img img {
     width: 100%;
 }

@@ -1,0 +1,142 @@
+
+.content_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content_block_inside hr {
+    margin-top: 13px;
+    color: #D2BB95;
+    border: none;
+    background-color: #D2BB95;
+    height: 1px;
+    width: 100%;
+}
+
+.table_of_content {
+    color: #519BCF;
+    margin: 14px 9px;
+    font-size: 1.25em;
+}
+
+.table_of_content ul{
+    color: #93B6CF;
+    font-size: 0.8em;
+}
+
+.table_of_content a:active,
+.table_of_content a{
+    text-decoration: none;
+    color: #93B6CF;
+}
+
+.table_of_content a:hover {
+    color: #519BCF;
+}
+
+.content_block_chapters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content_block_chapter_wrapper {
+    width: 48%;
+    margin-top: 5.5%;
+}
+
+.content_block_chapter {
+    margin-bottom: 43px;
+    color: #93B6CF;
+}
+
+.content_block_chapter a {
+    color: #93B6CF;
+    text-decoration: none;
+}
+.content_block_chapter a:hover {
+    text-decoration: underline;
+    color: #519BCF;
+}
+
+.content_block_chapter_header {
+    margin: 9px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    font-size: 24px;
+}
+
+.content_block_chapter_header img {
+    width: 13.5%;
+    height: 13.5%;
+    margin-right: 2%;
+}
+
+
+@media screen and (max-width: 800px) {
+    .content_wrapper {
+        padding: 8px;
+    }
+    .content_flex {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .table_of_content {
+        width: 100%;
+        margin: 0;
+    }
+    .content_block_inside {
+        width: 100%;
+    }
+    .content_block_inside_main {
+        padding: 0;
+    }
+    .content_block_chapters {
+        flex-direction: column;
+        align-items: center;
+    }
+    .content_block_chapter_header {
+        font-size: 18px;
+    }
+    .content_block_chapter_header img {
+        width: 11%;
+        height: 11%;
+        margin-right: 2%;
+    }
+    .content_block_chapter {
+        margin-bottom: 8px;
+    }
+    .content_block_chapter_wrapper {
+        width: 98%;
+        margin-top: 0;
+    }
+    .content_block_inside hr {
+        margin-top: 4px;
+    }
+}
+
+
+@media screen and (min-width: 801px) {
+    .content_wrapper {
+        padding: 16px;
+        margin-right: 23px;
+    }
+    .table_of_content {
+        width: 23%;
+    }
+    .content_block {
+        width: 75%;
+    }
+    .content_block_inside {
+        width: 73%;
+    }
+    .content_block_chapter_header {
+        font-size: 24px;
+    }
+    .content_block_inside_main {
+        padding: 0 25px;
+    }
+}

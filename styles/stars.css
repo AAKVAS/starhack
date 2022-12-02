@@ -2,16 +2,8 @@
     width: 48%;
 }
 
-.half_width_block img   {
-    width: 100%;
-}
-
 .star_img {
     width: 30%;
-}
-
-.star_img img {
-    width: 100%;
 }
 
 .star_text {
@@ -20,6 +12,11 @@
 
 .star_text {
     margin-bottom: 8px;
+}
+
+.half_width_block img,
+.star_img img {
+    width: 100%;
 }
 
 @media screen and (max-width: 800px) {
