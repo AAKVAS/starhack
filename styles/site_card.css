@@ -14,9 +14,6 @@
 }
 
 @media screen and (max-width: 800px) {
-    #menu {
-        display: none;
-    }
     .site_card_links {
         margin-top: 12px;
         padding: 4px;
@@ -37,7 +34,10 @@
 
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 801px) {
+    .menu_content {
+        display: none;
+    }
     .site_card_links {
         margin-top: 26px;
     }

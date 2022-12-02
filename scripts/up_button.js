@@ -1,5 +1,8 @@
 $(function () {
     $("#up_button").load("../html_components/up_button.html");
+});
+
+$(function () {
 
     $(window).scroll(function() {
 

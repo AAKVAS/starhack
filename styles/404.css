@@ -36,6 +36,9 @@
 }
 
 @media screen and (min-width: 801px) {
+    .menu_content {
+        display: none;
+    }
     .error_text {
         font-size: 48px;
     }
