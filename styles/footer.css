@@ -32,8 +32,8 @@
     text-decoration: none;
 }
 
-.footer_useful_link a:hover {
-    text-decoration: underline;
+.useful_link_wrapper:after {
+    border-color: #519BCF;
 }
 
 @media screen and (max-width: 800px) {

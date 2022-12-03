@@ -16,6 +16,11 @@
     color: #D2A353;
     display: block;
     text-decoration: none;
+    transition: all 0.1s;
+}
+
+.menu_chapter_link:active {
+    text-shadow: #D2A353 2px 0 8px, #D2A353 2px 0 18px;
 }
 
 .menu_page_link {
@@ -23,8 +28,12 @@
     margin: 10px 0 10px 30px;
     display: block;
     text-decoration: none;
+    transition: all 0.1s;
 }
 
+.menu_page_link:active {
+    text-shadow: #93B6CF 2px 0 11px;
+}
 
 @media screen and (max-width: 800px) {
     #menu_button {

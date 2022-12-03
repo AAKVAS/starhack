@@ -8,10 +8,14 @@
     font-size: 20px;
 }
 
-.chapter_link_inside_content a, .page_link_inside_content a {
+.chapter_link_inside_content a, .page_link_inside_content a
+{
     color: #93B6CF;
     text-decoration: none;
 }
+
+
+
 
 @media screen and (max-width: 800px) {
     .site_card_links {

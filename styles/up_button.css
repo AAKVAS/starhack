@@ -1,4 +1,8 @@
 
+#up_button {
+    display: none;
+}
+
 .up_button_col {
     position: fixed;
 }
@@ -21,6 +25,8 @@
     align-items: center;
     overflow: hidden;
     border-radius: 50%;
+    transition: all 0.3s;
+    animation-timing-function: ease-in;
 }
 
 .up_button_wrapper:hover {

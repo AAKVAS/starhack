@@ -1,6 +1,7 @@
 @import "header.css";
 @import "menu.css";
 @import "up_button.css";
+@import "expandable_link.css";
 @import "footer.css";
 
 
@@ -22,13 +23,6 @@ body {
 
 .img_wrapper img {
     width: 100%;
-}
-
-.invisible_link:active,
-.invisible_link:hover,
-.invisible_link {
-    text-decoration: none;
-    color: #D2BB95;
 }
 
 .flex_row_between {

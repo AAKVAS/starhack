@@ -1,0 +1,26 @@
+.expandable_link
+{
+    position: relative;
+    display: inline-block;
+}
+
+.expandable_link:after {
+    content: "";
+    position: absolute;
+    opacity: 0;
+    top: 100%;
+    left: 0;
+    margin-top: 2px;
+    width: 100%;
+    height: 100%;
+    border-top: 2px solid #93B6CF;
+    z-index: 1;
+    transform: scale(0.1, 1);
+    transition: all 0.1s;
+    animation-timing-function: ease-in-out;
+}
+
+.expandable_link:hover:after {
+    opacity: 1;
+    transform: scale(1, 1);
+}

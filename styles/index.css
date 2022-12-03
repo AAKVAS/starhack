@@ -25,10 +25,28 @@
     justify-content: center;
 }
 
+.invisible_link:active,
+.invisible_link:hover,
+.invisible_link {
+    text-decoration: none;
+    color: #D2BB95;
+}
+
 .card {
     border-radius: 5px;
     width: 29.5%;
     margin: 2% 0.93%;
+    transition: all 0.18s;
+}
+
+.card:hover {
+    box-shadow: 1px 7px 5px 7px rgba(10, 4, 7, 0.5);
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.card_text_wrapper {
+    padding: 0 3px 6px 3px;
 }
 
 .card img {

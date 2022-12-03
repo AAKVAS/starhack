@@ -43,7 +43,7 @@
 
 .content_block_chapter_wrapper {
     width: 48%;
-    margin-top: 5.5%;
+    margin-top: 2%;
 }
 
 .content_block_chapter {
@@ -55,9 +55,12 @@
     color: #93B6CF;
     text-decoration: none;
 }
-.content_block_chapter a:hover {
-    text-decoration: underline;
+.content_block_chapter:hover .content_block_chapter_header {
     color: #519BCF;
+}
+
+.content_block_chapter_link:after {
+    border-color: #519BCF;
 }
 
 .content_block_chapter_header {
