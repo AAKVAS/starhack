@@ -1,8 +1,8 @@
 @import "content.css";
 
-.bread_crump_link:active,
-.bread_crump_link:hover,
-.bread_crump_link {
+.bread_crumb_link:active,
+.bread_crumb_link:hover,
+.bread_crumb_link {
     text-decoration: none;
     color: #D2A353;
 }
